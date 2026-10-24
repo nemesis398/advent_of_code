@@ -10,7 +10,7 @@ This is the overview for the puzzles of the advent of code from 2015.
 | Day | Date             | Stars |
 | --- | ---------------- | ----- |
 | 01  | 24. October 2026 | ⭐⭐  |
-| 02  |                  |       |
+| 02  | 24. October 2026 | ⭐⭐  |
 | 03  |                  |       |
 | 04  |                  |       |
 | 05  |                  |       |
