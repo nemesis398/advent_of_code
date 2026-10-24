@@ -20,6 +20,4 @@ This shows which advent of code challenges I already solved.
 | 2016 | 00 / 25 |
 | 2015 | 00 / 25 |
 
-## References
-
 [AoC]: https://adventofcode.com
