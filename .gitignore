@@ -1,0 +1,46 @@
+# ── Odin ──────────────────────────────────────────────────────────
+# `odin build` names the executable after its package folder, so
+# 2025/day01/ builds to 2025/day01/day01. Binary and folder share a
+# name, so match the binary first and re-include the folder after:
+# Git never descends into an excluded folder, and would otherwise
+# hide every .odin source inside it.
+day[0-9][0-9]
+day[0-9][0-9]-[0-9][0-9]
+day[0-9]
+day[0-9]-[0-9][0-9]
+day[_-][0-9][0-9]
+day[_-][0-9][0-9]-[0-9][0-9]
+day[_-][0-9]
+day[_-][0-9]-[0-9][0-9]
+!day[0-9]*/
+!day[_-][0-9]*/
+!*.odin
+*.exe
+# `odin build -file` writes <source stem> or <source stem>.bin
+main
+!main/
+*.bin
+
+# ── Puzzle input ──────────────────────────────────────────────────
+# Never committed: your personal input file.
+*.input.txt
+input.txt
+
+# ── Neovim ────────────────────────────────────────────────────────
+*.sw[a-p]
+*~
+.netrwhist
+tags
+TAGS
+
+# ── OS ────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Merge leftovers ───────────────────────────────────────────────
+*.orig
+*.rej
+
+# ── Build output ──────────────────────────────────────────────────
+bin/
+build/
