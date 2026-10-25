@@ -11,7 +11,7 @@ This is the overview for the puzzles of the advent of code from 2015.
 | --- | ---------------- | ----- |
 | 01  | 24. October 2026 | ⭐⭐  |
 | 02  | 24. October 2026 | ⭐⭐  |
-| 03  |                  |       |
+| 03  | 25. October 2026 | ⭐⭐  |
 | 04  |                  |       |
 | 05  |                  |       |
 | 06  |                  |       |

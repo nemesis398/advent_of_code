@@ -18,7 +18,7 @@ This shows which advent of code challenges I already solved.
 | [2018][2018] | 00 / 25 |
 | [2017][2017] | 00 / 25 |
 | [2016][2015] | 00 / 25 |
-| [2015][2015] | 02 / 25 |
+| [2015][2015] | 03 / 25 |
 
 ## License
 
